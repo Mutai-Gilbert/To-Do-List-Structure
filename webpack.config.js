@@ -30,7 +30,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      Templates: path.resolve(__dirname, 'src/templates/'),
+      Templates: path.resolve(__dirname, 'src/index.html/'),
     },
   },
 };
