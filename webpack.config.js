@@ -28,4 +28,9 @@ module.exports = {
   optimization: {
     runtimeChunk: 'single',
   },
+  resolve: {
+    alias: {
+      Templates: path.resolve(__dirname, 'src/templates/'),
+    },
+  },
 };
